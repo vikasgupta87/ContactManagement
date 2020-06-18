@@ -1,0 +1,64 @@
+/* @charset "ISO-8859-1"; */
+body {
+    background-color: azure;
+}
+
+td, tr {
+  border: 1px solid #999;
+  padding: 0.5rem;
+}
+
+table.one {  
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+   // width: px; 
+  //  border-collapse:  
+    collapse; border-spacing: 1; 
+    background: darkseagreen;  
+}
+
+table.two {  
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    width: px; 
+    border-collapse: collapse; 
+    border-spacing: 5; 
+    //background: white;  
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.tdone, .trone {
+  border:none;
+  padding: 0.5rem;
+}
+
+.curlycontainer {
+  padding-top: 10px;
+  padding-left:25px; 
+}
+
+th {
+	font-weight:bold;
+  padding: 0.5rem;
+}
+
